@@ -3,7 +3,7 @@ Answers to questions:
 
 1. To what extent did the design decisions you made when writing the original programs make it easier or harder to factor out common code?
 
-   Much harder. Since I decided not to bother with Files.lines() and stream to a lambda function (the task was so easy) my original logic was much easier to just replicate in the final product because of time constraints.
+   Much harder. Since I decided not to bother with Files.lines() and stream to a lambda function (it was easier to use familiar patterns) my original logic was much easier to just replicate in the final product because of time constraints.
    
 2. Was the way you wrote the second program influenced by writing the first?
 
