@@ -17,6 +17,4 @@ Answers to questions:
    
    Because this kata involves just two examples, it didn't trip the Rule of Three (Fowler), so extensive refactoring of the basic logic flow was not triggered.
    
-   There are more complicated and general-purpose solutions, but using one of them really requires knowing more about the broader problem, and the kata doesn't provide that. More-complicated solutions typically require the use of more-complicated regexes, general-purpose data loaders, or complicated (or even behavioral) model classes. Given the problem space, these are premature complexity, which I find abhorrent.
-
-   I declined to use any Spring Boot functionality, since there is no need whatsoever for it.
+   There are more complicated and general-purpose solutions, but using one of them really requires knowing more about the broader problem, and the kata doesn't provide that. More-complicated solutions typically require the use of more-complicated regexes, general-purpose data loaders, or complicated (or even behavioral) model classes. Given the problem space, these are premature complexity, which I find counterproductive.
