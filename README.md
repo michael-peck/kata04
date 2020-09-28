@@ -1,6 +1,4 @@
 # kata04
-Kata 04 for THD interview
-
 Answers to questions:
 
 1. To what extent did the design decisions you made when writing the original programs make it easier or harder to factor out common code?
