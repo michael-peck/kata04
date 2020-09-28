@@ -16,3 +16,5 @@ Answers to questions:
    With more time and thought the code could be made more idiomatic. Using Streams would reduce the number of conditionals and getSpread() could take values instead of indexes into an array. findMinSpreadLabel() would require less code and have lower cyclomatic complexity. It's just too late at night to refactor, my only excuse.
    
    Because this kata involves just two examples, it didn't trip the Rule of Three (Fowler), so extensive refactoring of the basic logic flow was not triggered.
+   
+   There are more complicated and general-purpose solutions, but using one of them really requires knowing more about the broader problem, and the kata doesn't provide that. More complicated solutions typically require the use of more-complicated regexes, general-purpose data loaders, or complicated model classes. Given the problem space, these are premature complexity, which I find abhorrent.
