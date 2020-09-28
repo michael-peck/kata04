@@ -14,3 +14,5 @@ Answers to questions:
    It is not always a good thing. Specific use-cases create differing edge-cases. By combining two use-cases into one flow of logic, some things were improved, like the use of parameterization for field indexes, and the use of Math.abs() to eliminate the sign on subtractions. But this is little more than a temporary adjustment to catch an additional use-case. New data formats will require brand-new thinking about edge cases, and this code merely squeaks past the finish line. Moreover, the proliferation of parameters in the final result makes the code less functional, more fragile, less reliable, and more difficult to maintain.
    
    With more time and thought the code could be made more idiomatic. Using Streams would reduce the number of conditionals and getSpread() could take values instead of indexes into an array. findMinSpreadLabel() would require less code and have lower cyclomatic complexity. It's just too late at night to refactor, my only excuse.
+   
+   Because this kata involves just two examples, it didn't trip the Rule of Three (Fowler), so extensive refactoring of the basic logic flow was not triggered.
